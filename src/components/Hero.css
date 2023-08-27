@@ -1,0 +1,38 @@
+.hero-container {
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .hero-image-container {
+    height: 60vh;
+    width: auto;
+    border: hidden;
+    border-color: blue;
+    flex: 1; /* Added to maintain aspect ratio */
+    max-width: 40%; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image fills its container */
+    border-radius: 5%;
+  }
+  
+  .hero-text-container {
+    border: hidden;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    flex: 1; /* Added to maintain aspect ratio */
+    padding: 20px; /* Added padding for spacing */
+  }
+  
+  .hero-introduction-wrapper {
+    display: flex;
+    flex-direction: column;
+    border: hidden;
+    border-color: green;
+    text-align: center;
+    width: 40%;
+    flex: 1; /* Added to maintain aspect ratio */
+    padding: 2%; /* Added padding for spacing */
+  }
